@@ -1,0 +1,8 @@
+DemoJSON.MainActivity, DemoJSON;md577954b546d08a8df80680332f9f717c7.MainActivity
+DemoJSON.MainActivity, DemoJSON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md577954b546d08a8df80680332f9f717c7.MainActivity
+DemoJSON.MainActivity;md577954b546d08a8df80680332f9f717c7.MainActivity
+demojson.MainActivity;md577954b546d08a8df80680332f9f717c7.MainActivity
+DemoJSON.UserAdapter, DemoJSON;md577954b546d08a8df80680332f9f717c7.UserAdapter
+DemoJSON.UserAdapter, DemoJSON, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md577954b546d08a8df80680332f9f717c7.UserAdapter
+DemoJSON.UserAdapter;md577954b546d08a8df80680332f9f717c7.UserAdapter
+demojson.UserAdapter;md577954b546d08a8df80680332f9f717c7.UserAdapter

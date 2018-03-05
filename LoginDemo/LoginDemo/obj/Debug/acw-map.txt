@@ -1,0 +1,8 @@
+LoginDemo.MainActivity, LoginDemo;md5685c640e5a95ce80ab7c3eadf03d7b95.MainActivity
+LoginDemo.MainActivity, LoginDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5685c640e5a95ce80ab7c3eadf03d7b95.MainActivity
+LoginDemo.MainActivity;md5685c640e5a95ce80ab7c3eadf03d7b95.MainActivity
+logindemo.MainActivity;md5685c640e5a95ce80ab7c3eadf03d7b95.MainActivity
+LoginDemo.registration, LoginDemo;md5685c640e5a95ce80ab7c3eadf03d7b95.registration
+LoginDemo.registration, LoginDemo, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5685c640e5a95ce80ab7c3eadf03d7b95.registration
+LoginDemo.registration;md5685c640e5a95ce80ab7c3eadf03d7b95.registration
+logindemo.registration;md5685c640e5a95ce80ab7c3eadf03d7b95.registration
