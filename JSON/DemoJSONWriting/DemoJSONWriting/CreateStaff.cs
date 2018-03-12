@@ -19,7 +19,11 @@ namespace DemoJSONWriting
         {
             base.OnCreate(savedInstanceState);
 
-            
+            Spinner spinner = FindViewById<Spinner>(Resource.Id.spinnerRole);
+            var adapter = ArrayAdapter.CreateFromResource(this, Resource.Array.role_array, Android.Resource.Layout.SimpleSpinnerItem);
+
+            adapter.SetDropDownViewResource(Android.Resource.Layout.SimpleSpinnerItem);
+            spinner.Adapter = adapter;
         }
     }
 }

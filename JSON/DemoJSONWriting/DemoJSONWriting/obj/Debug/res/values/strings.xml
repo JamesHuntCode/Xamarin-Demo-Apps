@@ -1,1 +1,1 @@
-<resources><string name="app_name">DemoJSONWriting</string></resources>
+<resources><string name="app_name">DemoJSONWriting</string><string name="role_prompt">Choose a role</string><string-array name="role_array"><item>Checkout Librarian</item><item>Chief Librarian</item><item>Head Librarian</item></string-array></resources>
