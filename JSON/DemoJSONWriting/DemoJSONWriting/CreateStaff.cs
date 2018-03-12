@@ -12,9 +12,14 @@ using Android.Widget;
 
 namespace DemoJSONWriting
 {
-    public class Staff : User
+    [Activity(Label = "CreateStaff")]
+    public class CreateStaff : Activity
     {
-        public Role Role { get; set; }
-        public bool Volunteer { get; set; }
+        protected override void OnCreate(Bundle savedInstanceState)
+        {
+            base.OnCreate(savedInstanceState);
+
+            
+        }
     }
 }

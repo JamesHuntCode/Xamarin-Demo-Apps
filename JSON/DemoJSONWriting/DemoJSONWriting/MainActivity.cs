@@ -1,6 +1,8 @@
 ﻿using Android.App;
 using Android.Widget;
 using Android.OS;
+using System.Collections.Generic;
+using Newtonsoft.Json;
 
 namespace DemoJSONWriting
 {
@@ -25,16 +27,21 @@ namespace DemoJSONWriting
             save.Click += this.onSave;
         }
 
+        public static List<Staff> staffMembers = new List<Staff>();
+
+        // Method called when create button is clicked
         private void onCreate(object sender, System.EventArgs e)
         {
 
         }
 
+        // Method ccalled when read button is clicked
         private void onRead(object sender, System.EventArgs e)
         {
 
         }
 
+        // Method called when save button is clicked
         private void onSave(object sender, System.EventArgs e)
         {
 
