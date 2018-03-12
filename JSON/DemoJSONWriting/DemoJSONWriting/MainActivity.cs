@@ -7,8 +7,6 @@ namespace DemoJSONWriting
     [Activity(Label = "DemoJSONWriting", MainLauncher = true, Icon = "@mipmap/icon")]
     public class MainActivity : Activity
     {
-        int count = 1;
-
         protected override void OnCreate(Bundle savedInstanceState)
         {
             base.OnCreate(savedInstanceState);
@@ -16,11 +14,30 @@ namespace DemoJSONWriting
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.Main);
 
-            // Get our button from the layout resource,
-            // and attach an event to it
-            Button button = FindViewById<Button>(Resource.Id.myButton);
+            // Button widgets
+            Button create = FindViewById<Button>(Resource.Id.btnCreate);
+            Button read = FindViewById<Button>(Resource.Id.btnRead);
+            Button save = FindViewById<Button>(Resource.Id.btnSaveData);
 
-            button.Click += delegate { button.Text = string.Format("{0} clicks!", count++); };
+            // Button on click events
+            create.Click += this.onCreate;
+            read.Click += this.onRead;
+            save.Click += this.onSave;
+        }
+
+        private void onCreate(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void onRead(object sender, System.EventArgs e)
+        {
+
+        }
+
+        private void onSave(object sender, System.EventArgs e)
+        {
+
         }
     }
 }
