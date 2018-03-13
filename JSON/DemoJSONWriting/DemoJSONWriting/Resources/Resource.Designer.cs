@@ -60,17 +60,17 @@ namespace DemoJSONWriting
 		public partial class Id
 		{
 			
-			// aapt resource value: 0x7f06000c
-			public const int btnCreate = 2131099660;
+			// aapt resource value: 0x7f06000d
+			public const int btnCreate = 2131099661;
 			
 			// aapt resource value: 0x7f06000a
 			public const int btnCreateUser = 2131099658;
 			
-			// aapt resource value: 0x7f06000d
-			public const int btnRead = 2131099661;
-			
 			// aapt resource value: 0x7f06000e
-			public const int btnSaveData = 2131099662;
+			public const int btnRead = 2131099662;
+			
+			// aapt resource value: 0x7f06000f
+			public const int btnSaveData = 2131099663;
 			
 			// aapt resource value: 0x7f060006
 			public const int etEmail = 2131099654;
@@ -84,11 +84,14 @@ namespace DemoJSONWriting
 			// aapt resource value: 0x7f060008
 			public const int etPassword = 2131099656;
 			
-			// aapt resource value: 0x7f06000b
-			public const int linearLayout1 = 2131099659;
+			// aapt resource value: 0x7f06000c
+			public const int linearLayout1 = 2131099660;
 			
-			// aapt resource value: 0x7f06000f
-			public const int lvUsers = 2131099663;
+			// aapt resource value: 0x7f06000b
+			public const int lvDisplayStaff = 2131099659;
+			
+			// aapt resource value: 0x7f060010
+			public const int lvUsers = 2131099664;
 			
 			// aapt resource value: 0x7f060009
 			public const int spinnerRole = 2131099657;
@@ -125,7 +128,10 @@ namespace DemoJSONWriting
 			public const int CreateStaff = 2130903040;
 			
 			// aapt resource value: 0x7f030001
-			public const int Main = 2130903041;
+			public const int DisplayStaff = 2130903041;
+			
+			// aapt resource value: 0x7f030002
+			public const int Main = 2130903042;
 			
 			static Layout()
 			{

@@ -23,24 +23,12 @@ namespace DemoJSONWriting
             Button save = FindViewById<Button>(Resource.Id.btnSaveData);
 
             // Button on click events
-            create.Click += onCreate;
-            read.Click += onRead;
+            create.Click += delegate { StartActivity(typeof(CreateStaff)); };
+            read.Click += delegate { StartActivity(typeof(DisplayStaff)); };
             save.Click += onSave;
         }
 
         public static List<Staff> staffMembers = new List<Staff>();
-
-        // Method called when create button is clicked
-        public static void onCreate(object sender, System.EventArgs e)
-        {
-
-        }
-
-        // Method ccalled when read button is clicked
-        public static void onRead(object sender, System.EventArgs e)
-        {
-
-        }
 
         // Method called when save button is clicked
         public static void onSave(object sender, System.EventArgs e)
@@ -55,9 +43,9 @@ namespace DemoJSONWriting
 
                 string serialiseStaff = JsonConvert.SerializeObject(staffMembers);
 
-                using (StreamWriter mySR = new StreamWriter(fileName, false))
+                using (StreamWriter mySW = new StreamWriter(fileName, false))
                 {
-                    mySR.Write(serialiseStaff);
+                    mySW.Write(serialiseStaff);
                 }
             }
         }

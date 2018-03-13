@@ -66,6 +66,7 @@
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
+    <AndroidAsset Include="Assets\staff.json" />
     <None Include="GettingStarted.Xamarin" />
     <None Include="packages.config" />
     <None Include="Resources\AboutResources.txt" />

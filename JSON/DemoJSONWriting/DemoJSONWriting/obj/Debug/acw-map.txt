@@ -1,0 +1,8 @@
+DemoJSONWriting.CreateStaff, DemoJSONWriting;md5362959fa48a75fd66057208721365874.CreateStaff
+DemoJSONWriting.CreateStaff, DemoJSONWriting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5362959fa48a75fd66057208721365874.CreateStaff
+DemoJSONWriting.CreateStaff;md5362959fa48a75fd66057208721365874.CreateStaff
+demojsonwriting.CreateStaff;md5362959fa48a75fd66057208721365874.CreateStaff
+DemoJSONWriting.MainActivity, DemoJSONWriting;md5362959fa48a75fd66057208721365874.MainActivity
+DemoJSONWriting.MainActivity, DemoJSONWriting, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5362959fa48a75fd66057208721365874.MainActivity
+DemoJSONWriting.MainActivity;md5362959fa48a75fd66057208721365874.MainActivity
+demojsonwriting.MainActivity;md5362959fa48a75fd66057208721365874.MainActivity
