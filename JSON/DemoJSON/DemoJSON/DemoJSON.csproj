@@ -57,6 +57,9 @@
     <Reference Include="Mono.Android" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckoutLibrarian.cs" />
+    <Compile Include="ChiefLibrarian.cs" />
+    <Compile Include="HeadLibrarian.cs" />
     <Compile Include="MainActivity.cs" />
     <Compile Include="Member.cs" />
     <Compile Include="Models\Staff_Member.cs" />

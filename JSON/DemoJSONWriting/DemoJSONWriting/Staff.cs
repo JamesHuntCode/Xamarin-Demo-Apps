@@ -16,5 +16,10 @@ namespace DemoJSONWriting
     {
         public Role Role { get; set; }
         public bool Volunteer { get; set; }
+
+        public Staff()
+        {
+
+        }
     }
 }

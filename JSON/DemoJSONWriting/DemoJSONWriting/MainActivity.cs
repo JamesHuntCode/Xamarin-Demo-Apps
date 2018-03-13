@@ -3,6 +3,7 @@ using Android.Widget;
 using Android.OS;
 using System.Collections.Generic;
 using Newtonsoft.Json;
+using System.IO;
 
 namespace DemoJSONWriting
 {
@@ -22,29 +23,43 @@ namespace DemoJSONWriting
             Button save = FindViewById<Button>(Resource.Id.btnSaveData);
 
             // Button on click events
-            create.Click += this.onCreate;
-            read.Click += this.onRead;
-            save.Click += this.onSave;
+            create.Click += onCreate;
+            read.Click += onRead;
+            save.Click += onSave;
         }
 
         public static List<Staff> staffMembers = new List<Staff>();
 
         // Method called when create button is clicked
-        private void onCreate(object sender, System.EventArgs e)
+        public static void onCreate(object sender, System.EventArgs e)
         {
 
         }
 
         // Method ccalled when read button is clicked
-        private void onRead(object sender, System.EventArgs e)
+        public static void onRead(object sender, System.EventArgs e)
         {
 
         }
 
         // Method called when save button is clicked
-        private void onSave(object sender, System.EventArgs e)
+        public static void onSave(object sender, System.EventArgs e)
         {
+            // Check array entries before proceeding 
+            if ((staffMembers.Count > 0) && (staffMembers != null))
+            {
+                // safe to proceed
 
+                string filePath = System.Environment.GetFolderPath(System.Environment.SpecialFolder.Personal);
+                string fileName = Path.Combine(filePath, "staff.json");
+
+                string serialiseStaff = JsonConvert.SerializeObject(staffMembers);
+
+                using (StreamWriter mySR = new StreamWriter(fileName, false))
+                {
+                    mySR.Write(serialiseStaff);
+                }
+            }
         }
     }
 }
